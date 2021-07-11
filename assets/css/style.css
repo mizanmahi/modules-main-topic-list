@@ -8,7 +8,6 @@ body {
     box-sizing: border-box;
     background:  #ddd;
     font-family: monospace;
-    background: slateblue;
     font-family: 'Lato', sans-serif;
 }
 
@@ -17,6 +16,8 @@ header {
     color: White;
     background: slateblue;
     text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    margin-bottom: 3rem;
 }
 
 header h1 {
@@ -54,12 +55,10 @@ header h1 {
 }
 
 /* Module Styles */
-main {
-    padding: 0 1rem;
-}
+
 .module {
     padding: 2rem;
-    margin: 1rem auto;
+    margin: 3rem auto;
     max-width: 800px;
     background: #fff;
     border-radius: 5px;
@@ -76,8 +75,10 @@ ul {
 }
 
 ul li {
-    padding: .5rem;
+    padding: .5rem 1rem;
     background: rgb(204, 204, 204);
+    list-style: none;
+    border-left: 5px solid slateblue;
 
 }
 
